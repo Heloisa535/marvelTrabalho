@@ -114,8 +114,12 @@ nav ul li a {
     text-align: left;
     margin: 5px;
     transition: transform 0.3s ease;
-   
+  
+  
+  
 }
+
+
 
 .hq img{
     height: 290px;
@@ -126,15 +130,16 @@ nav ul li a {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     
+    
 
 }
 
 
 .pai {
     display: grid;
-    grid-template-columns: 1fr; /* Cria uma coluna */
-    grid-template-rows: auto auto; /* Duas linhas, uma para o botão e outra para a imagem */
-    justify-items: center; /* Opcional: centraliza horizontalmente */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto; 
+    justify-items: center; 
     
   
   }
@@ -313,7 +318,12 @@ h4{
     color: white;
 }
 
-
+a{
+  text-decoration: none;
+  color: #000000;
+}
 
   
-  
+ .fundo{
+  background-image: url(imagem/hq.png);
+ }
