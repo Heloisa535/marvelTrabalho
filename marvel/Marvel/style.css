@@ -359,3 +359,8 @@ a{
  .fundo{
   background-image: url(imagem/hq.png);
  }
+
+ .back{
+  background-color: #000000;
+  height: 500px;
+ }
