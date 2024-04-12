@@ -14,10 +14,11 @@
         <img src="imagem/Marvel logo.png" alt="">
         <div class="container1">
             <h1> <br> </h1>
-            <form class="search-form" action="#" method="get">
-              <input type="text" placeholder="Pesquisar..." name="search">
-              <button type="submit">Buscar</button>
+            <form class="search-form" action="#" method="get" onsubmit="search(event)">
+                <input type="text" placeholder="Pesquisar..." name="search" id="searchInput">
+                <button type="submit">Buscar</button>
             </form>
+            
           </div>
     </header> 
     
@@ -35,14 +36,19 @@
                    
 
                     <li class="dropdown" id="comics">
-                        <a href="#comics">COMICS</a>
+                        <a href="#comics1">COMICS</a>
                         
                     </li>
-                   
-                   
 
                     <li class="dropdown" id="characters">
-                        <a href="#characters">CHARACTERS</a>
+                        <a href="#characters1">AVENGERS</a>
+                    </li>
+
+                    <li class="dropdown" id="characters">
+                        <a href="#characters3">X-MEN</a>
+                    </li>
+                    <li class="dropdown" id="characters">
+                        <a href="#characters2">VILAINS</a>
                     </li>
                 </ul>
             </nav>
@@ -68,49 +74,90 @@
 
 
       <div class="quadrinhos"><p><h1>COMICS</h1></p></div>
-      <div class="dad" id="comics">
+      <div class="dad" id="comics1">
         <a href="comic.html">
         <div class="hq">
-            <img src="imagem/xmen1.jpg" alt="1">
-            <h4>X-Men '97 (2024) #2</h4>
+            <img src="imagem/thor_01.jpg" alt="1">
+            <h4>A FÚRIA DE THOR</h4>
         </div>
     </a>
     <a href="msMarvel.html">
         <div class="hq">
-            <img src="imagem/ms.marvel.jpg" alt="1">
-            <h4>Ms. Marvel: Mutant <br> Menace (2024) #2</h4>
+            <img src="imagem/venom.jpg" alt="1">
+            <h4>ANTI-VENOM - NOVAS FORMAS <br>DE VIVER</h4>
         </div>
     </a>
     <a href="carnage.html">
         <div class="hq">
-            <img src="imagem/carnage.jpg" alt="1">
-            <h4>Carnage (2023) #6</h4>
+            <img src="imagem/Extraordin_rios_X-Men__001__2015___SQ__001.jpg" alt="1">
+            <h4>EXTRAORDINÁRIOS X-MEN <br> (2015)</h4>
         </div>
     </a>
     <a href="spider.html">
         <div class="hq">
-            <img src="imagem/clean.jpg" alt="1">
-            <h4>Edge of Spider-Verse <br> (2024) #3</h4>
+            <img src="imagem/tony stark.jpg" alt="1">
+            <h4>Tony Stark Homem de Ferro<br> - 2018</h4>
         </div>
     </a>
     <a href="wolv.html">
         <div class="hq">
-            <img src="imagem/wolverine1.jpg" alt="1">
-            <h4>Wolverine (2020) #47</h4>
+            <img src="imagem/wolverinenova.jpg" alt="1">
+            <h4>Novíssima Wolverine V1 <br> (2015)</h4>
         </div>
     </a>
     <a href="qf.html">
         <div class="hq">
-            <img src="imagem/quartetoFantastico.jpg" alt="1">
-            <h4>Fantastic Four (2022) #19</h4>
+            <img src="imagem/agentes da shield.jpg" alt="1">
+            <h4>Agentes da SHIELD <br> (2015)</h4>
         </div>
     </a>
    
 
     </div>
+    <div class="characters1" id="characters1"><p><h1>CHARACTERS AVENGERS</h1></p></div>
 
+    <div class="dad" id="dad">
+        <a href="panteranegra.html">
+        <div class="hq">
+            <img src="imagem/pantera.jpg" alt="1">
+            <h4>PANTERA NEGRA</h4>
+        </div>
+    </a>
+    <a href="viuva.html">
+        <div class="hq">
+            <img src="imagem/VIUVA NEGRA.jpg" alt="1">
+            <h4>VIÚVA NEGRA</h4>
+        </div>
+    </a>
+    <a href="capitao.html">
+        <div class="hq">
+            <img src="imagem/CAPITÃO AMERICA.jpg" alt="1">
+            <h4>CAPITÃO AMÉRICA</h4>
+        </div>
+    </a>
+    <a href="aranha.html">
+        <div class="hq">
+            <img src="imagem/HOMEM ARANHA.jpg" alt="1">
+            <h4>HOMEM ARANHA</h4>
+        </div>
+    </a>
+    <a href="wanda.html">
+        <div class="hq">
+            <img src="imagem/wANDA MAXIMOFF.jpg" alt="1">
+            <h4>FEITICEIRA ESCARLATE</h4>
+        </div>
+    </a>
+    <a href="soldado.html">
+        <div class="hq">
+            <img src="imagem/SOLDADO INVERNAL.jpg" alt="1">
+            <h4>SOLDADO INVERNAL</h4>
+        </div>
+    </a>
+    
    
-    <div class="characters" id="characters"><p><h1>CHARACTERS</h1></p></div>
+    </div>
+   
+    <div class="characters" id="characters3"><p><h1>CHARACTERS X-MEN</h1></p></div>
 
     <div class="dad" id="dad">
         <a href="magneto.html">
@@ -151,7 +198,51 @@
     </a>
     
     </div>
+  
+    <div class="characters2" id="characters2"><p><h1>VILAINS</h1></p></div>
+    <div class="dad" id="dad">
+        <a href="thanos.html">
+        <div class="hq">
+            <img src="imagem/THANOS.jpg" alt="1">
+            <h4>THANOS</h4>
+        </div>
+    </a>
+    <a href="ebony.html">
+        <div class="hq">
+            <img src="imagem/EBONY.jpg" alt="1">
+            <h4>EBONY MAW</h4>
+        </div>
+    </a>
+    <a href="kill.html">
+        <div class="hq">
+            <img src="imagem/killmonger.jpg" alt="1">
+            <h4>ERIK KILLMONGER</h4>
+        </div>
+    </a>
+    <a href="ulysses.html">
+        <div class="hq">
+            <img src="imagem/ulysses.jpg" alt="1">
+            <h4>ULYSSES KLAUE</h4>
+        </div>
+    </a>
+    <a href="loki.html">
+        <div class="hq">
+            <img src="imagem/loki.jpg" alt="1">
+            <h4>LOKI</h4>
+        </div>
+    </a>
+    <a href="hela.html">
+        <div class="hq">
+            <img src="imagem/hela.jpg" alt="1">
+            <h4>HELA</h4>
+        </div>
+    </a>
+    
+    </div>
+
 </div>
+
+
 </body>
 </html>
 

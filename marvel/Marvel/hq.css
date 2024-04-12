@@ -123,10 +123,18 @@ header img{
     color: white;
     text-align: left;
     margin-left: 50px;
-    margin-top: 60px;
+    margin-top: 10px;
 
 }
 
-.seta{
-    
+.botão{
+  background-color: rgb(142, 13, 13);
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: bold;
+  color: white;
 }

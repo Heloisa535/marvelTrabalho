@@ -152,6 +152,10 @@ nav ul li a {
 
 h4{
     margin: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: bold;
 }
 
 .dad {
@@ -222,14 +226,6 @@ h4{
     background-color: #8d3d3d;
   }
 
-  .dropdown-menu h1{
-
-    text-align: left;
-  }
-
-  .dropdown-menu h4{
-    text-align: left;
-  }
 
   #comics img{
     width: 199px;
@@ -237,7 +233,7 @@ h4{
   }
 
  .characters{
-    background-image: url(imagem/1355073.png);
+    background-image: url(imagem/283339.jpg);
     height: 200px;
    align-items: center;
  }
@@ -252,6 +248,42 @@ h4{
     font: bold;
     color: white;
   
+}
+
+.characters1{
+  background-image: url(imagem/1355073.png);
+  height: 200px;
+ align-items: center;
+}
+
+
+.characters1 h1{
+ padding: 85px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: bold;
+  color: white;
+
+}
+
+.characters2{
+  background-image: url(imagem/HYDRA.png);
+  height: 200px;
+ align-items: center;
+}
+
+
+.characters2 h1{
+ padding: 85px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: bold;
+  color: rgb(0, 0, 0);
+
 }
 
 .quadrinhos{
