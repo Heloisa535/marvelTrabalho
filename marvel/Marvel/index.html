@@ -14,10 +14,15 @@
         <img src="imagem/Marvel logo.png" alt="">
         <div class="container1">
             <h1> <br> </h1>
-            <form class="search-form" action="#" method="get" onsubmit="search(event)">
-                <input type="text" placeholder="Pesquisar..." name="search" id="searchInput">
-                <button type="submit">Buscar</button>
-            </form>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Digite aqui para pesquisar">
+                <button onclick="search()">Pesquisar</button>
+              </div>
+              
+              <div id="searchResults">
+                <!-- Os resultados da pesquisa serão exibidos aqui -->
+              </div>
+              
             
           </div>
     </header> 
@@ -241,8 +246,8 @@
     </div>
 
 </div>
-<div class="back"><h1>div</h1></div>
 
+<script src="script.js"></script>
 </body>
 </html>
 
